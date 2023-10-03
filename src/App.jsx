@@ -1,17 +1,19 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import { Button } from '@material-tailwind/react'
+import { Fragment } from "react";
+import "./App.css";
+import NavbarComponent from "./components/common/NavbarComponent";
+import HeroSection from "./sections/HeroSection";
+import AboutSection from "./sections/AboutSection";
+import FeaturedSection from "./sections/FeaturedSection";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <Button>Hey</Button>
-    </>
-  )
+    <Fragment>
+      <NavbarComponent />
+      <HeroSection />
+      <AboutSection />
+      <FeaturedSection />
+    </Fragment>
+  );
 }
 
-export default App
+export default App;
