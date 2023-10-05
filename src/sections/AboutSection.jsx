@@ -21,7 +21,7 @@ const AboutSection = () => {
           <p className="text-caption text-white font-body font-normal">
             Happiness in your hands
           </p>
-          <h2 className="mb-16 text-h2 text-white font-normal drop-shadow-1xl">
+          <h2 className="mb-16 text-h2 text-white font-heading font-normal drop-shadow-1xl">
             Feel The Hype
           </h2>
           <div className="container mx-auto grid gap-x-6 md:grid-cols-3 lg:gap-x-12">
@@ -31,7 +31,7 @@ const AboutSection = () => {
                   <div className="flex justify-center">
                     <img src={item.img} alt="" />
                   </div>
-                  <Typography className="text-white text-h4 font-normal">
+                  <Typography className="text-white text-h4 font-normal font-heading">
                     {item.title}
                   </Typography>
                   <Typography variant="body" className="text-body1 font-body">

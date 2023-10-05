@@ -1,29 +1,37 @@
-import React from "react";
+import React, { Fragment } from "react";
 import { FEATURED_DATA } from "../utils/Data";
+import { FilledButton } from "../components/common/ButtonComponent";
 
 const FeaturedSection = () => {
   return (
-    <section class="max-w-full mx-auto bg-featured bg-contain bg-no-repeat">
-      <div class="container py-8 px-4 mx-auto sm:py-16 lg:px-6">
-        <div class="max-w-screen-md mb-8 lg:mb-16">
-          <p class="text-caption font-body text-white">Made with love</p>
-          <h2 class="mb-4 text-h2 text-white drop-shadow-1xl font-normal">
+    <div className="bg-primary bg-contain bg-no-repeat text-center py-8 px-4 mx-auto sm:py-16 lg:px-6">
+      <div className="container mx-auto space-y-20">
+        <div className="mb-8 lg:mb-16">
+          <p className="text-caption font-body text-white">Made with love</p>
+          <h2 className="mb-4 text-h2 text-white drop-shadow-1xl font-normal font-heading">
             Featured Burgers
           </h2>
         </div>
-        <div class="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0">
+        <div className="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0">
           {FEATURED_DATA.map((item) => (
-            <div>
-              <div class="flex justify-center items-center mb-4 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
+            <div className="border-2 rounded-3xl border-white">
+              <div className="flex justify-center">
                 <img src={item.img} alt="" />
               </div>
-              <h3 class="mb-2 text-xl font-bold dark:text-white">{item.title}</h3>
-              <h3 class="mb-2 text-xl font-bold dark:text-white">{item.price}</h3>
+              <div className="grid grid-cols-2 text-center">
+                <h3 className="mb-2 text-h3 font-heading text-white">
+                  {item.title}
+                </h3>
+                <h3 className="mb-2 text-h3 font-heading text-white">
+                  {item.price}
+                </h3>
+              </div>
             </div>
           ))}
         </div>
+        <FilledButton color={"white"}>VIEW ALL</FilledButton>
       </div>
-    </section>
+    </div>
   );
 };
 

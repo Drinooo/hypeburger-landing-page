@@ -7,7 +7,7 @@ export const FilledButton = ({ children, variant = "filled", color }) => {
       <Button
         variant={variant}
         color={color}
-        className="font-normal text-primary"
+        className="font-normal font-heading text-primary"
       >
         {children}
       </Button>

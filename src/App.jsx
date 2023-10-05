@@ -4,6 +4,7 @@ import NavbarComponent from "./components/common/NavbarComponent";
 import HeroSection from "./sections/HeroSection";
 import AboutSection from "./sections/AboutSection";
 import FeaturedSection from "./sections/FeaturedSection";
+import TestimonialSection from "./sections/TestimonialSection";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <HeroSection />
       <AboutSection />
       <FeaturedSection />
+      <TestimonialSection />
     </Fragment>
   );
 }
