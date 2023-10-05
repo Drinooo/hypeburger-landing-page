@@ -14,10 +14,10 @@ const AboutSection = () => {
   return (
     <Fragment>
       <div className="mx-auto bg-secondary">
-        <div className="">
+        <div className="py-[75px]">
           <img src="/images/Banner/Tape.png" alt="" className="w-full" />
         </div>
-        <section className="mb-32 text-center">
+        <section className="mb-32 text-center py-[75px]">
           <p className="text-caption text-white font-body font-normal">
             Happiness in your hands
           </p>

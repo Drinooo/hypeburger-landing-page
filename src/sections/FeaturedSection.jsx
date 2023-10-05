@@ -4,7 +4,7 @@ import { FilledButton } from "../components/common/ButtonComponent";
 
 const FeaturedSection = () => {
   return (
-    <div className="bg-primary bg-contain bg-no-repeat text-center py-8 px-4 mx-auto sm:py-16 lg:px-6">
+    <div className="bg-primary bg-contain bg-no-repeat text-center mx-auto py-[75px]">
       <div className="container mx-auto space-y-20">
         <div className="mb-8 lg:mb-16">
           <p className="text-caption font-body text-white">Made with love</p>

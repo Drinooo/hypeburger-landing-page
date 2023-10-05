@@ -5,6 +5,9 @@ import HeroSection from "./sections/HeroSection";
 import AboutSection from "./sections/AboutSection";
 import FeaturedSection from "./sections/FeaturedSection";
 import TestimonialSection from "./sections/TestimonialSection";
+import CTASection from "./sections/CTASection";
+import BannerSection from "./sections/BannerSection";
+import FooterSection from "./sections/FooterSection";
 
 function App() {
   return (
@@ -14,6 +17,11 @@ function App() {
       <AboutSection />
       <FeaturedSection />
       <TestimonialSection />
+      <CTASection />
+      <div className="py-[150px]">
+        <img src="/images/Banner/Tape.png" alt="" className="w-full" />
+      </div>
+      <FooterSection />
     </Fragment>
   );
 }

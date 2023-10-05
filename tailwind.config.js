@@ -39,8 +39,11 @@ module.exports = withMT({
       body1: "20px",
       body2: "",
       caption: "24px",
+      caption2: '18px',
       btn: "24px",
       nav: "18px",
+      fHeader: '20px',
+      footer: '18px'
     },
     fontWeight: {
       thin: "100",
@@ -64,7 +67,8 @@ module.exports = withMT({
       backgroundImage: {
         hero: "url('/images/Background/Hero BG.png')",
         about: "url('/images/Background/About BG.png')",
-        featured: "url('/images/Background/Featured BG.png')"
+        featured: "url('/images/Background/Featured BG.png')",
+        cta: "url('/images/Background/CTA BG.png')"
       },
       colors: {
         primary: "#EC3727",

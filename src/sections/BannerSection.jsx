@@ -2,7 +2,7 @@ import React from 'react'
 
 const BannerSection = () => {
   return (
-    <div className='w-screen'>
+    <div className='max-w-full'>
       <img src="/images/Banner/Tape.png" alt="" />
     </div>
   )

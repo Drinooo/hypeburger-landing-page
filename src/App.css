@@ -1,1 +1,42 @@
+.center .slick-center{
+  opacity: 1;
+  transition: all 300ms ease;
+  transform: scale(1.08);
+}
 
+.content {
+  padding: 30px;
+  margin: auto;
+}
+
+.slick-slide{
+  padding: 30px;
+  opacity: .8;
+}
+.slick-slide{
+  border: 5px solid #FFF;
+  display: block;
+  margin: auto;
+  max-width: 80%;
+}
+.slick-slide{
+  border: 0
+}
+.slick-slider{
+  margin: 30px auto 50px;
+}
+.slick-dots{
+  margin-left: 0;
+}
+.slick-thumb{
+  bottom: -45px;
+}
+.slick-thumb{
+  width: 60px;
+  height: 45px;
+}
+.slick-thumb{
+  width: 100%;
+  height: 100%;
+  filter: grayscale(100%);
+}

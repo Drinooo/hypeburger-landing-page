@@ -66,30 +66,35 @@ export const FEATURED_DATA = [
 
 export const TESTIMONIALS_DATA = [
   {
+    id: 1,
     img: '/images/P1.png',
     rate: '',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id officiis hic tenetur quae quaerat ad velit ab hic.',
     name: 'Aldrin Villalobos',
   },
   {
+    id: 2,
     img: '/images/P2.png',
     rate: '',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id officiis hic tenetur quae quaerat ad velit ab hic.',
     name: 'Michael Von Perez',
   },
   {
+    id: 3,
     img: '/images/P3.png',
     rate: '',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id officiis hic tenetur quae quaerat ad velit ab hic.',
     name: 'Jonathan Astorga',
   },
   {
+    id: 4,
     img: '/images/P1.png',
     rate: '',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id officiis hic tenetur quae quaerat ad velit ab hic.',
     name: 'Elmer Bautista',
   },
   {
+    id: 5,
     img: '/images/P2.png',
     rate: '',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id officiis hic tenetur quae quaerat ad velit ab hic.',
