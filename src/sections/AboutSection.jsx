@@ -26,8 +26,8 @@ const AboutSection = () => {
           </h2>
           <div className="container mx-auto grid gap-x-6 md:grid-cols-3 lg:gap-x-12 sm:gap-y-12">
             {ABOUT_DATA.map((item) => (
-              <Card className="bg-primary">
-                <CardBody className="text-white space-y-6">
+              <Card className="bg-primary hover:bg-white text-white  hover:text-primary">
+                <CardBody className="space-y-6">
                   <div className="flex justify-center">
                     <img src={item.img} alt="" />
                   </div>

@@ -7,7 +7,7 @@ export const FilledButton = ({ children, variant = "filled", color }) => {
       <Button
         variant={variant}
         color={color}
-        className="font-normal font-heading text-primary"
+        className="font-normal font-heading text-primary hover:text-white hover:bg-primary"
       >
         {children}
       </Button>
@@ -21,7 +21,7 @@ export const OutlinedButton = ({ children, variant = "outlined", color }) => {
       <Button
         variant={variant}
         color={color}
-        className="font-normal font-heading text-white"
+        className="font-normal font-heading text-white hover:text-primary hover:bg-white opacity-1"
       >
         {children}
       </Button>

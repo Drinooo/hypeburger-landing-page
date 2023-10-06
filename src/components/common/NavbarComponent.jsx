@@ -26,7 +26,7 @@ const NavbarComponent = () => {
           as="li"
           variant="small"
           color="blue-gray"
-          className="p-3 font-body font-normal text-white"
+          className="p-3 font-body font-normal text-white hover:font-bold"
         >
           <a href="#" className="flex items-center text-body1">
             {item.title}
