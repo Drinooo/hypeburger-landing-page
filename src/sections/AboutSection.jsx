@@ -14,17 +14,17 @@ const AboutSection = () => {
   return (
     <Fragment>
       <div className="mx-auto bg-secondary">
-        <div className="py-[75px]">
+        <div className="">
           <img src="/images/Banner/Tape.png" alt="" className="w-full" />
         </div>
         <section className="mb-32 text-center py-[75px]">
           <p className="text-caption text-white font-body font-normal">
             Happiness in your hands
           </p>
-          <h2 className="mb-16 text-h2 text-white font-heading font-normal drop-shadow-1xl">
+          <h2 className="mb-16 md:text-h2 sm:text-h2Mobile text-white font-heading font-normal drop-shadow-1xl">
             Feel The Hype
           </h2>
-          <div className="container mx-auto grid gap-x-6 md:grid-cols-3 lg:gap-x-12">
+          <div className="container mx-auto grid gap-x-6 md:grid-cols-3 lg:gap-x-12 sm:gap-y-12">
             {ABOUT_DATA.map((item) => (
               <Card className="bg-primary">
                 <CardBody className="text-white space-y-6">

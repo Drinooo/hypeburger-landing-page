@@ -28,7 +28,7 @@ const NavbarComponent = () => {
           color="blue-gray"
           className="p-3 font-body font-normal text-white"
         >
-          <a href="#" className="flex items-center">
+          <a href="#" className="flex items-center text-body1">
             {item.title}
           </a>
         </Typography>

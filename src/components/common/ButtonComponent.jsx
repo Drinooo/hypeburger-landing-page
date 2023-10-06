@@ -14,3 +14,17 @@ export const FilledButton = ({ children, variant = "filled", color }) => {
     </div>
   );
 };
+
+export const OutlinedButton = ({ children, variant = "outlined", color }) => {
+  return (
+    <div>
+      <Button
+        variant={variant}
+        color={color}
+        className="font-normal font-heading text-white"
+      >
+        {children}
+      </Button>
+    </div>
+  );
+};

@@ -4,11 +4,11 @@ import { FilledButton } from "../components/common/ButtonComponent";
 
 const FeaturedSection = () => {
   return (
-    <div className="bg-primary bg-contain bg-no-repeat text-center mx-auto py-[75px]">
+    <div className="bg-primary bg-contain bg-no-repeat text-center mx-auto py-[153px]">
       <div className="container mx-auto space-y-20">
         <div className="mb-8 lg:mb-16">
           <p className="text-caption font-body text-white">Made with love</p>
-          <h2 className="mb-4 text-h2 text-white drop-shadow-1xl font-normal font-heading">
+          <h2 className="mb-4 md:text-h2 sm:text-h2Mobile text-white drop-shadow-1xl font-normal font-heading">
             Featured Burgers
           </h2>
         </div>

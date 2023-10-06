@@ -17,17 +17,47 @@ const TestimonialSection = () => {
     infinite: true,
     centerPadding: "100px",
     slidesToShow: 3,
+    slidesToScroll: 1,
     speed: 500,
     autoplay: true,
-    autoplaySpeed: 15000,
+    autoplaySpeed: 10000,
     cssEase: "linear",
-    dots: true,
+    arrows: false,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          infinite: true,
+          centerPadding: "100px",
+          dots: true
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          centerPadding: "10px",
+          initialSlide: 1
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          centerPadding: "10px",
+          slidesToScroll: 1
+        }
+      }
+    ]
   };
 
   return (
-    <div className="my-24 mx-auto md:px-6 py-[75px]">
+    <div className="my-24 mx-auto">
       <section className="mb-32 text-center">
-        <h2 className="mb-12 text-3xl font-heading text-h2 text-white drop-shadow-1xl">
+        <h2 className="mb-12 text-3xl font-heading md:text-h2 sm:text-h2Mobile text-white drop-shadow-1xl">
           Hear the hype
         </h2>
 
@@ -39,7 +69,7 @@ const TestimonialSection = () => {
                   <img src={item.img} alt="card-image" className="w-full" />
                 </CardHeader>
                 <CardBody className="text-black">
-                  <Typography className="font-body text-body1">{item.desc}</Typography>
+                  <Typography className="font-body md:text-body1 sm:text-body2">{item.desc}</Typography>
                   <Typography
                     variant="h5"
                     color="blue-gray"
